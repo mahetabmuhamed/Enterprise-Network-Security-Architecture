@@ -21,7 +21,6 @@ The network is divided into two major domains:
 
 ## 🌐 Network Topology
 ### Enterprise Network Topology
-(Network diagram can be added here)
 <img width="968" height="443" alt="image" src="https://github.com/user-attachments/assets/20514efa-c3d2-4164-9960-9d20cd96ebba" />
 
 
