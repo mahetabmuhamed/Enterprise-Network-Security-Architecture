@@ -1,0 +1,83 @@
+***************LEFT_SIDE_IPV4*************
+
+vlan 10 Branch1-HR         10.11.12.0/29
+vlan 20 Branch1-NS    10.11.12.8/29
+vlan 30 Branch1-PR          10.11.12.16/29
+vlan 40 Branch1-SOC       10.11.12.24/29
+vlan 50 Branch1-IT       10.11.12.32/29
+vlan 60 Branch1-Sales      10.11.12.40/29
+vlan 70 Branch1-Ops        10.11.12.48/29
+vlan 80 Branch1-QA        10.11.12.56/29
+vlan 90 Branch1-Management-A      10.11.12.64/29
+vlan 100 Branch1-Management-B      10.11.12.72/29
+vlan 110 Branch1-Management-C    10.11.12.80/29
+vlan 120 Branch1-Wireless            10.11.12.88/29
+
+ **********LEFT_SIDE_IPV6**************
+
+vlan 10 Branch1-HR          2000:12:34:20::/64
+vlan 20 Branch1-NS          2000:12:34:21::/64
+vlan 30 Branch1-PR          2000:12:34:22::/64
+vlan 40 Branch1-SOC         2000:12:34:23::/64
+vlan 50 Branch1-IT         2000:12:34:24::/64
+vlan 60 Branch1-Sales      2000:12:34:25::/64
+vlan 70 Branch1-Ops        2000:12:34:26::/64
+vlan 80 Branch1-QA           2000:12:34:27::/64
+vlan 90 Branch1-Management-A       2000:12:34:28::/64
+vlan 100 Branch1-Management-B       2000:12:34:29::/64
+vlan 110 Branch1-Management-C        2000:12:34:30::/64
+vlan 120 Branch1-Wireless            2000:12:34:31::/64
+
+***************RIGHT_SIDE_IPV6 & IPV4*********************
+
+vlan 10 Branch2-HR                    2000:12:34:1::/64    10.11.12.176/29
+vlan 20 Branch2-NS               2000:12:34:2::/64          10.11.12.184/29
+vlan 30 Branch2-PR                     2000:12:34:3::/64      10.11.12.192/29
+vlan 40 Branch2-SOC                  2000:12:34:4::/64        10.11.12.200/29
+vlan 50 Branch2-IT                       2000:12:34:5::/64      10.11.12.208/29
+vlan 60 Branch2-Sales                 2000:12:34:9::/64       10.11.12.216/29
+vlan 70 Branch2-Management-A      2000:12:34:6::/64
+vlan 80 Branch2-Management-B  2000:12:34:7::/64
+vlan 90 Branch2-Management-C      2000:12:34:8::/64
+vlan 100 Branch2-Native1
+vlan 110 Branch2-Native2
+vlan 120 Branch2-Native3
+vlan 130 Branch2-Management-A-V4 10.11.12.152 /29
+vlan 140 Branch2-Management-B-V4 10.11.12.160 /29
+vlan 150 Branch2-Management-C-V4 10.11.12.168 /29
+
+*********Point2Point****************
+10.11.12.104/29
+
+10.11.12.104/30
+10.11.12.108/30
+
+10.11.12.112/29
+
+10.11.12.112/30
+10.11.12.116/30
+
+10.11.12.120/29
+
+10.11.12.120/30
+10.11.12.124/30
+
+10.11.12.128/29
+
+10.11.12.128/30
+10.11.12.132/30
+
+10.11.12.136/29
+
+10.11.12.136/30
+10.11.12.140/30
+
+10.11.12.144/29
+
+10.11.12.144/30
+10.11.12.148/30
+
+*********************ASA************************
+INSIDE 10.11.12.232/29
+DMZ 10.11.12.240/29
+OUTSIDE 10.11.12.248/29
